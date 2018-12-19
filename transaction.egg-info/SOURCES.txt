@@ -1,7 +1,0 @@
-setup.py
-transaction/__init__.py
-transaction/transaction.py
-transaction.egg-info/PKG-INFO
-transaction.egg-info/SOURCES.txt
-transaction.egg-info/dependency_links.txt
-transaction.egg-info/top_level.txt
