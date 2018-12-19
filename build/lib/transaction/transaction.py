@@ -28,14 +28,3 @@ class TransactionJson(BaseTransaction):
         else:
             self.data = json.load(json_data)
 
-
-def main():
-    with open('transaction.json') as f:
-        result = TransactionJson(f)
-    test = result.data
-    check = result.check_tax(test['tax_money']['amount'], test['total_collected_money']['amount'])
-    print(check)
-
-
-if __name__ == '__main__':
-    main()

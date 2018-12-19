@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-   name="transaction_pkg",
+   name="transaction_test",
    version="0.0.1",
    author="Hamza",
    author_email="hamzaabughazaleh23@gmail.com",
